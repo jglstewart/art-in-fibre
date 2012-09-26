@@ -1,0 +1,11 @@
+- model: blog.Blog
+  pk: 1
+  fields:
+    title: Flowers
+    slug: flowers
+    body: These flowers are so beautiful
+- model: myapp.person
+  pk: 2
+  fields:
+    first_name: Paul
+    last_name: McCartney

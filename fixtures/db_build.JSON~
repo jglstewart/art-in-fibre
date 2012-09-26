@@ -1,0 +1,304 @@
+[
+ {
+    "model": "blog.Category",
+    "pk": 1,
+    "fields": {
+      "title": "Craft Shows",
+      "slug": "craft-shows"
+    }
+  },
+ {
+    "model": "blog.Category",
+    "pk": 2,
+    "fields": {
+      "title": "Farms",
+      "slug": "farms"
+    }
+  },
+ {
+    "model": "blog.Category",
+    "pk": 3,
+    "fields": {
+      "title": "Food",
+      "slug": "food"
+    }
+  },
+ {
+    "model": "blog.Category",
+    "pk": 4,
+    "fields": {
+      "title": "Life",
+      "slug": "life"
+    }
+  },
+ {
+    "model": "blog.Category",
+    "pk": 5,
+    "fields": {
+      "title": "Art",
+      "slug": "art"
+    }
+  },
+  {
+    "model": "blog.Blog",
+    "pk": 1,
+    "fields": {
+      "title": "Halifax Crafters",
+      "slug": "halifax-crafters",
+      "body": "Halifax crafter's is coming soon to a hall near you! Come down and enjoy the food and music and browse the beautiful crafts! You'll love it!",
+      "category": 1,
+      "main_image":"main_images/168525_10151800831235113_1786552775_n.jpg",
+      "posted":"2012-09-17T16:28:46.819Z"
+    }
+  },
+ {
+    "model": "blog.Blog",
+    "pk": 2,
+    "fields": {
+      "title": "I want a farm!",
+      "slug": "i-want-a-farm",
+      "body": "I am reading this amazing book about farm love. I love farms and I want one. When I'm going to get a farm. Please give me a farm soon. I want one!",
+      "category": 2,
+      "main_image":"main_images/168525_10151800831235113_1786552775_n.jpg",
+      "posted":"2012-10-17T16:28:46.819Z"
+    }
+  },
+ {
+    "model": "blog.Blog",
+    "pk": 3,
+    "fields": {
+      "title": "Another Blog",
+      "slug": "another-blog",
+      "body": "I'm writting this blog today. It's another blog on another day just to have another blog.",
+      "category": 4,
+      "main_image":"main_images/168525_10151800831235113_1786552775_n.jpg",
+      "posted":"2012-08-17T16:28:46.819Z"
+    }
+  },
+ {
+    "model": "blog.Blog",
+    "pk": 4,
+    "fields": {
+      "title": "Paul Simon",
+      "slug": "paul-simon",
+      "body": "I love this paul simon song. It's soo good. I want to listen to it more. Yup. it's good. Jo knows the words. CRAZY cracker.",
+      "category": 4,
+      "main_image":"main_images/168525_10151800831235113_1786552775_n.jpg",
+      "posted":"2012-09-17T16:28:46.819Z"
+    }
+  },
+ {
+    "model": "blog.Slideshow",
+    "pk": 1,
+    "fields": {
+      "title": "Look at my beautiful Scarves!",
+      "slug": "look-at-my-beautiful-scarves",
+      "body": "Don't my scarves look awesome! All dyed with beautiful colours and such! You should buy one this year!",
+      "image":"slideshow_images/scarves_1.jpg"
+    }
+  },
+ {
+    "model": "blog.Slideshow",
+    "pk": 2,
+    "fields": {
+      "title": "Christmas Craft Show",
+      "slug": "christmas-craft-show",
+      "body": "Come to crafters this year! It will be a super fun show. Lots of the same old sellers and many new crafters! Fresh blood! Buy some shit! MINE.",
+      "image":"slideshow_images/crafters-instagrammed_1.jpg"
+    }
+  },
+ {
+    "model": "blog.Slideshow",
+    "pk": 3,
+    "fields": {
+      "title": "Third and Final!",
+      "slug": "third-and-final",
+      "body": "This is the third and final slideshow. No idea what to say, but I guess it doesn't really matter does it?!.. Nope! Weeeee! almost done.",
+      "image":"slideshow_images/156171_10151772463205113_283700793_n.jpg"
+    }
+  },
+ {
+    "model": "blog.Product_type",
+    "pk": 1,
+    "fields": {
+      "title": "Scarves",
+      "slug": "scarves"
+    }
+  },
+ {
+    "model": "blog.Product_Type",
+    "pk": 2,
+    "fields": {
+      "title": "Blankets",
+      "slug": "blankets"
+    }
+  },
+ {
+    "model": "blog.Product_Type",
+    "pk": 3,
+    "fields": {
+      "title": "Hooked Rugs",
+      "slug": "hooked-rugs"
+    }
+  },
+ {
+    "model": "blog.Product_Type",
+    "pk": 4,
+    "fields": {
+      "title": "Drawings",
+      "slug": "drawings"
+    }
+  },
+ {
+    "model": "blog.Product_Type",
+    "pk": 5,
+    "fields": {
+      "title": "Bits & Bobs",
+      "slug": "bits-and-bobs"
+    }
+  },
+ {
+    "model": "blog.Gallery",
+    "pk": 1,
+    "fields": {
+      "title": "Apple Crate",
+      "slug": "apple-crate",
+      "description": "A crate of apples!",
+      "product_category": 4,
+      "cost": "10.00",
+      "main_image":"gallery_images/cards/applecrate.jpg"
+    }
+  },
+ {
+    "model": "blog.Gallery",
+    "pk": 2,
+    "fields": {
+      "title": "Large Veggies",
+      "slug": "large-veggies",
+      "description": "A tun of veggies!",
+      "product_category": 4,
+      "cost": "10.00",
+      "main_image":"gallery_images/cards/bigveg.jpg"
+    }
+  },
+ {
+    "model": "blog.Gallery",
+    "pk": 3,
+    "fields": {
+      "title": "Cherries",
+      "slug": "cherries",
+      "description": "Delicious Cherries",
+      "product_category": 4,
+      "cost": "10.00",
+      "main_image":"gallery_images/cards/cherries.jpg"
+    }
+  },
+ {
+    "model": "blog.Gallery",
+    "pk": 4,
+    "fields": {
+      "title": "Plum",
+      "slug": "plum",
+      "description": "Have a bite of this plum!",
+      "product_category": 4,
+      "cost": "10.00",
+      "main_image":"gallery_images/cards/fruit-plum.jpg"
+    }
+  },
+ {
+    "model": "blog.Gallery",
+    "pk": 5,
+    "fields": {
+      "title": "Peaches",
+      "slug": "peaches",
+      "description": "Tastey Peaches!",
+      "product_category": 4,
+      "cost": "10.00",
+      "main_image":"gallery_images/cards/fruits-peach.jpg"
+    }
+  },
+ {
+    "model": "blog.Gallery",
+    "pk": 6,
+    "fields": {
+      "title": "Kale Alphabet Card",
+      "slug": "kale-alphabet-card",
+      "description": "K stands for Kale!",
+      "product_category": 4,
+      "cost": "10.00",
+      "main_image":"gallery_images/cards/Kk-postcard.jpg"
+    }
+  },
+ {
+    "model": "blog.Gallery",
+    "pk": 7,
+    "fields": {
+      "title": "Apple Crate",
+      "slug": "apple-crate",
+      "description": "A crate of apples!",
+      "product_category": 4,
+      "cost": "10.00",
+      "main_image":"gallery_images/cards/applecrate.jpg"
+    }
+  },
+ {
+    "model": "blog.Gallery",
+    "pk": 8,
+    "fields": {
+      "title": "Large Veggies",
+      "slug": "large-veggies",
+      "description": "A tun of veggies!",
+      "product_category": 4,
+      "cost": "10.00",
+      "main_image":"gallery_images/cards/bigveg.jpg"
+    }
+  },
+ {
+    "model": "blog.Gallery",
+    "pk": 9,
+    "fields": {
+      "title": "Cherries",
+      "slug": "cherries",
+      "description": "Delicious Cherries",
+      "product_category": 4,
+      "cost": "10.00",
+      "main_image":"gallery_images/cards/cherries.jpg"
+    }
+  },
+ {
+    "model": "blog.Gallery",
+    "pk": 10,
+    "fields": {
+      "title": "Plum",
+      "slug": "plum",
+      "description": "Have a bite of this plum!",
+      "product_category": 4,
+      "cost": "10.00",
+      "main_image":"gallery_images/cards/fruit-plum.jpg"
+    }
+  },
+ {
+    "model": "blog.Gallery",
+    "pk": 11,
+    "fields": {
+      "title": "Peaches",
+      "slug": "peaches",
+      "description": "Tastey Peaches!",
+      "product_category": 4,
+      "cost": "10.00",
+      "main_image":"gallery_images/cards/fruits-peach.jpg"
+    }
+  },
+ {
+    "model": "blog.Gallery",
+    "pk": 12,
+    "fields": {
+      "title": "Kale Alphabet Card",
+      "slug": "kale-alphabet-card",
+      "description": "K stands for Kale!",
+      "product_category": 4,
+      "cost": "10.00",
+      "main_image":"gallery_images/cards/Kk-postcard.jpg"
+    }
+  }
+]
