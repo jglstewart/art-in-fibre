@@ -9,7 +9,7 @@ body {
 	font-family: "copse", "Regular", sans-serif
 	font-size: 14px;
 	line-height: 1.4em; 
-	background-color: #eefbfa; 
+	background-color: #c0c0c0; /*#eefbfa;*/ 
 }
 
 a, a:link, a:visited { 
@@ -137,7 +137,7 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 }
 
 #templatemo_header {
-	width: 960px;
+	width: 100%;
 	padding: 0px 10px;
 	margin: 0 auto;
 }
@@ -149,7 +149,7 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 }
 
 #templatemo_slider {
-	width: 960px;
+	width: 100%;
 	padding: 33px 10px;
 	height: 446px;
 	margin: 0 auto;
@@ -157,7 +157,7 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 }
 
 #templatemo_main_wrapper {
-	width: 100%;
+	width: 70%;
 /*	background: url(../images/templatemo_main.jpg) repeat-x top*/
 }
 
@@ -181,6 +181,12 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 #site_title { 
 	float: left; 
         padding: 30px 0px;
+        margin-left: 55px;
+}
+
+.title_image {
+        width: 200px;
+        height: 50px;
 }
 
 #site_title a { 
@@ -195,7 +201,10 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 	background: url(../images/templatemo_logo.png) no-repeat center left; 
 }
 
-#templatemo_menu { float: right }
+#templatemo_menu { 
+        float: right;
+        margin-right: 55px;
+ }
 
 .homepage_post { 
 	margin-bottom: 40px; 
@@ -532,5 +541,11 @@ h6 { font-size: 12px; margin: 0 0 5px; padding: 0; }
 /* My additions */
 
 .product_information {
-text-align: center;
+        text-align: center;
+}
+
+#inner_body {
+        margin: auto auto;
+        width: 70%;
+        background: #ffffff;
 }

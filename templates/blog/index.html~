@@ -59,20 +59,20 @@ ddsmoothmenu.init({
 </head>
 <body>
 
-<div id="templatemo_header_wrapper">
+<div id="templatemo_header_wrapper_main">
 	<div id="templatemo_header">
     	<div id="site_title"><img src="static/images/title.gif"/></div>
         <div id="templatemo_menu" class="ddsmoothmenu">
             <ul>
-                <li><a href="blog/" class="selected">Home</a></li>
-                <li><a href="about/profile">About</a>
+                <li><a href="/" class="selected">Home</a></li>
+                <li><a href="about.html">About</a>
                     <ul>
-                        <li><a href="about/bio">joanna's biography</a></li>
-                        <li><a href="about/farm_project">farm project</a></li>
-                        <li><a href="about/resume">resume</a></li>
+                        <li><a href="site/about/bio.html">joanna's biography</a></li>
+                        <li><a href="site/about/farm_project.html">farm project</a></li>
+                        <li><a href="site/about/resume.html">resume</a></li>
 					</ul>
                 </li>
-                <li><a href="portfolio/home">Gallery</a>
+                <li><a href="gallery/1.html">Gallery</a>
                     <ul>
 						<li><a href="portfolio/illustrations">illustrations</a></li>
 						<li><a href="portfolio/blankets">blankets</a></li>
@@ -81,7 +81,7 @@ ddsmoothmenu.init({
 						<li><a href="portfolio/other">odds & ends</a></li>
 					</ul>
                 </li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="blog/1">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <br style="clear: left" />
@@ -99,20 +99,20 @@ ddsmoothmenu.init({
 					<div class="details">
 					
 						<div class="detail">
-							<h2><a href="#">Life is Colour</a></h2>
-                            <p>Joanna's colours are vibrant and cheery. Feelings are derived from colour creations by ms. Close.</p>
+							<h2><a href="#">{{ first_slide.title }}</a></h2>
+                            <p>{{ first_slide.body }}</p>
 							<a href="#" title="Read more" class="more">Read more</a>
 						</div><!-- /detail -->
 						
 						<div class="detail">
-							<h2><a href="#">Life is Fun</a></h2>
-                            <p>Lift your spirits. Have high hopes. It is not soup, it is delicious kishes in my mouth.</p>
+							<h2><a href="#">{{ second_slide.title }}</a></h2>
+                            <p>{{ second_slide.body }}</p>
 							<a href="#" title="Read more" class="more">Read more</a>
 						</div><!-- /detail -->
 						
 						<div class="detail">
-							<h2><a href="#">Life is Everything</a></h2>
-                            <p> Shit shit, fire da missles. There's hot water in the pot.</p>
+							<h2><a href="#">{{ third_slide.title }}</a></h2>
+                            <p>{{ third_slide.body }}</p>
 							<a href="#" title="Read more" class="more">Read more</a>
 						</div><!-- /detail -->
 					
@@ -135,15 +135,15 @@ ddsmoothmenu.init({
                 <div class="backgrounds">
                     
                     <div class="item item_1">
-                        <img src="static/images/slider/02.jpg" alt="Image 01" />
+                        <img src="media/{{ first_slide.image }}" width="480" height="360" alt="Image 01" />
                     </div><!-- /item -->
                     
                     <div class="item item_2">
-                        <img src="static/images/slider/03.jpg" alt="Image 02" />
+                        <img src="media/{{ second_slide.image }}" width="480" height="360" alt="Image 02" />
                     </div><!-- /item -->
                     
                     <div class="item item_3">
-                        <img src="static/images/slider/01.jpg" alt="Image 03" />
+                        <img src="media/{{ third_slide.image }}" width="480" height="360" alt="Image 03" />
                     </div><!-- /item -->
                     
                 </div><!-- /backgrounds -->
@@ -159,7 +159,7 @@ ddsmoothmenu.init({
             {% if most_recent_post %}
                     <h2>Recent Post:<a href="{{ most_recent_post.get_absolute_url }}">{{ most_recent_post.title }}</a></h2>
                     <div class="post_meta">{{ most_recent_post.posted }}</div>
-                    <img src="static/images/templatemo_image_02.jpg" class="image_fl imgage-with-frame" alt="Image 02"/>
+                    <img src="media/{{ most_recent_post.main_image }}" class="image_fl imgage-with-frame" alt="Image 02"/>
                     <p>{{ most_recent_post.body }}</p>
                     <a href="#" class="more"></a>
             {% else %}
@@ -171,7 +171,7 @@ ddsmoothmenu.init({
              {% if second_recent_post %}
                     <h2>Recent Post:<a href="{{ second_recent_post.get_absolute_url }}">{{ second_recent_post.title }}</a></h2>
                     <div class="post_meta">{{ second_recent_post.posted }}</div>
-                    <img src="static/images/templatemo_image_03.jpg" class="image_fl imgage-with-frame" alt="Image 02"/>
+                    <img src="media/{{ second_recent_post.main_image }}" class="image_fr imgage-with-frame" alt="Image 02"/>
                     <p>{{ second_recent_post.body }}</p>
                     <a href="#" class="more"></a>
             {% else %}
@@ -185,25 +185,25 @@ ddsmoothmenu.init({
         <div id="food-gallery">
             <h2>Browse</h2>
             <div class="col one_fourth">
-                <img src="static/images/templatemo_image_02.jpg" alt="Image 02" class="imgage-with-frame" />
+                <img src="static/images/sugar.gif" alt="Image 02" class="imgage-with-frame" />
                 <h5>About</h5>
                 <p>More about me.</p>
             </div>
 			
             <div class="col one_fourth fp_rw">
-                <img src="static/images/templatemo_image_03.jpg" alt="Image 03" class="imgage-with-frame" />
+                <img src="static/images/flour.gif" alt="Image 03" class="imgage-with-frame" />
                 <h5>Gallery</h5>
                 <p>Beautiful work</p>
             </div>
 			
             <div class="col one_fourth fp_rw">
-                <img src="static/images/templatemo_image_04.jpg" alt="Image 04" class="imgage-with-frame" />
+                <img src="static/images/applecrate.gif" alt="Image 04" class="imgage-with-frame" />
                 <h5>Blog</h5>
                 <p>Words of wisdom and life stories.</p>
             </div>
 			
             <div class="col one_fourth fp_rw no_margin_right">
-                <img src="static/images/templatemo_image_05.jpg" alt="Image 05" class="imgage-with-frame" />
+                <img src="static/images/applepie.gif" alt="Image 05" class="imgage-with-frame" />
                 <h5>Shop</h5>
                 <p>Come buy my shit.</p>
             </div>

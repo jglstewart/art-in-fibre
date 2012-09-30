@@ -47,7 +47,7 @@
       "slug": "halifax-crafters",
       "body": "Halifax crafter's is coming soon to a hall near you! Come down and enjoy the food and music and browse the beautiful crafts! You'll love it!",
       "category": 1,
-      "main_image":"main_images/168525_10151800831235113_1786552775_n.jpg",
+      "main_image":"main_images/yarn.jpg",
       "posted":"2012-09-17T16:28:46.819Z"
     }
   },
@@ -59,7 +59,7 @@
       "slug": "i-want-a-farm",
       "body": "I am reading this amazing book about farm love. I love farms and I want one. When I'm going to get a farm. Please give me a farm soon. I want one!",
       "category": 2,
-      "main_image":"main_images/168525_10151800831235113_1786552775_n.jpg",
+      "main_image":"main_images/barn.jpg",
       "posted":"2012-10-17T16:28:46.819Z"
     }
   },
@@ -71,7 +71,7 @@
       "slug": "another-blog",
       "body": "I'm writting this blog today. It's another blog on another day just to have another blog.",
       "category": 4,
-      "main_image":"main_images/168525_10151800831235113_1786552775_n.jpg",
+      "main_image":"main_images/barn_drawing.jpg",
       "posted":"2012-08-17T16:28:46.819Z"
     }
   },
@@ -83,7 +83,7 @@
       "slug": "paul-simon",
       "body": "I love this paul simon song. It's soo good. I want to listen to it more. Yup. it's good. Jo knows the words. CRAZY cracker.",
       "category": 4,
-      "main_image":"main_images/168525_10151800831235113_1786552775_n.jpg",
+      "main_image":"main_images/barnhooking.jpg",
       "posted":"2012-09-17T16:28:46.819Z"
     }
   },
@@ -101,20 +101,20 @@
     "model": "blog.Slideshow",
     "pk": 2,
     "fields": {
-      "title": "Christmas Craft Show",
-      "slug": "christmas-craft-show",
+      "title": "Weaving a Blanket",
+      "slug": "weaving-a-blanket",
       "body": "Come to crafters this year! It will be a super fun show. Lots of the same old sellers and many new crafters! Fresh blood! Buy some shit! MINE.",
-      "image":"slideshow_images/crafters-instagrammed_1.jpg"
+      "image":"slideshow_images/blueloom.jpg"
     }
   },
  {
     "model": "blog.Slideshow",
     "pk": 3,
     "fields": {
-      "title": "Third and Final!",
-      "slug": "third-and-final",
+      "title": "Weaving a Scarf",
+      "slug": "weaving-a-scarf",
       "body": "This is the third and final slideshow. No idea what to say, but I guess it doesn't really matter does it?!.. Nope! Weeeee! almost done.",
-      "image":"slideshow_images/156171_10151772463205113_283700793_n.jpg"
+      "image":"slideshow_images/pinkloom.jpg"
     }
   },
  {
