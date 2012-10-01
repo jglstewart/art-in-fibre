@@ -1,6 +1,7 @@
 import math
 from blog.models import Blog, Category, SlideShow, Gallery, Product_Type
 from django.shortcuts import render_to_response, get_object_or_404
+from django.template import RequestContext, loader
 
 def index(request):
     return render_to_response('blog/index.html', {
