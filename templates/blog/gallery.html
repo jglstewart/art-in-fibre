@@ -95,7 +95,7 @@ ddsmoothmenu.init({
 
 {% for product in products %}
         <div class={% cycle '"gallery_box"' '"gallery_box"' '"gallery_box"' '"gallery_box no_margin_right"' %}>
-       		<a href="/gallery/{{ product.slug }}" rel="lightbox[portfolio]"><img src="/media/{{ product.main_image }}" height="112px" width="200px" alt="{{ product.title }}" class="imgage-with-frame"/></a>
+       		<a href="/gallery/{{ product.slug }}" rel="lightbox[portfolio]"><img src="{{ MEDIA_URL }}{{ product.main_image }}" height="112px" width="200px" alt="{{ product.title }}" class="imgage-with-frame"/></a>
             <h5>{{ product.title}}</h5>
             <p>${{ product.cost }}</p>
         </div>

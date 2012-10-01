@@ -94,7 +94,7 @@ ddsmoothmenu.init({
     	
         <div id="content" class="float_l">
         	<div class="post">
-	            <div class="post_image"><img src="/media/{{ post.main_image }}" alt="{{ post.title }}" /><span class="date">{{ post.posted }}</span></div>
+	            <div class="post_image"><img src="{{ MEDIA_URL }}{{ post.main_image }}" alt="{{ post.title }}" /><span class="date">{{ post.posted }}</span></div>
                 <h2>{{ post.title }}</h2>
                 <p>{{ post.body }}</p>
 

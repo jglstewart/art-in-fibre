@@ -135,15 +135,15 @@ ddsmoothmenu.init({
                 <div class="backgrounds">
                     
                     <div class="item item_1">
-                        <img src="media/{{ first_slide.image }}" width="480" height="360" alt="Image 01" />
+                        <img src="{{ MEDIA_URL }}{{ first_slide.image }}" width="480" height="360" alt="Image 01" />
                     </div><!-- /item -->
                     
                     <div class="item item_2">
-                        <img src="media/{{ second_slide.image }}" width="480" height="360" alt="Image 02" />
+                        <img src="{{ MEDIA_URL }}{{ second_slide.image }}" width="480" height="360" alt="Image 02" />
                     </div><!-- /item -->
                     
                     <div class="item item_3">
-                        <img src="media/{{ third_slide.image }}" width="480" height="360" alt="Image 03" />
+                        <img src="{{ MEDIA_URL }}{{ third_slide.image }}" width="480" height="360" alt="Image 03" />
                     </div><!-- /item -->
                     
                 </div><!-- /backgrounds -->
@@ -159,7 +159,7 @@ ddsmoothmenu.init({
             {% if most_recent_post %}
                     <h2>Recent Post:<a href="{{ most_recent_post.get_absolute_url }}">{{ most_recent_post.title }}</a></h2>
                     <div class="post_meta">{{ most_recent_post.posted }}</div>
-                    <img src="media/{{ most_recent_post.main_image }}" class="image_fl imgage-with-frame" alt="Image 02"/>
+                    <img src="{{ MEDIA_URL }}{{ most_recent_post.main_image }}" class="image_fl imgage-with-frame" alt="Image 02"/>
                     <p>{{ most_recent_post.body }}</p>
                     <a href="#" class="more"></a>
             {% else %}
@@ -171,7 +171,7 @@ ddsmoothmenu.init({
              {% if second_recent_post %}
                     <h2>Recent Post:<a href="{{ second_recent_post.get_absolute_url }}">{{ second_recent_post.title }}</a></h2>
                     <div class="post_meta">{{ second_recent_post.posted }}</div>
-                    <img src="media/{{ second_recent_post.main_image }}" class="image_fr imgage-with-frame" alt="Image 02"/>
+                    <img src="{{ MEDIA_URL }}{{ second_recent_post.main_image }}" class="image_fr imgage-with-frame" alt="Image 02"/>
                     <p>{{ second_recent_post.body }}</p>
                     <a href="#" class="more"></a>
             {% else %}
