@@ -5,7 +5,7 @@
 <title>joanna close - art in fibre</title>
 <meta name="keywords" content="Blog, Dyeing, Weaving, Food, Colours, Scarves, Blankets" />
 <meta name="description" content="artist website: blog, shop and current projects" />
-<link href="static/css/templatemo_style.css" rel="stylesheet" type="text/css" />
+<link href="{{ STATIC_URL }}css/templatemo_style.css" rel="stylesheet" type="text/css" />
 
 <link rel="stylesheet" type="text/css" href="static/css/ddsmoothmenu.css" />
 
@@ -58,10 +58,10 @@ ddsmoothmenu.init({
 
 </head>
 <body>
-
+<div id="inner_body">
 <div id="templatemo_header_wrapper_main">
 	<div id="templatemo_header">
-    	<div id="site_title"><img src="static/images/title.gif"/></div>
+    	<div id="site_title"><img src="static/images/title.gif"/ class="title_image"></div>
         <div id="templatemo_menu" class="ddsmoothmenu">
             <ul>
                 <li><a href="/" class="selected">Home</a></li>
@@ -218,6 +218,6 @@ ddsmoothmenu.init({
     	Copyright © 2012 <a href="#">Joanna Close</a> | Designed by Art in Fibre & Colour Creations Web Engineering
     </div> <!-- END of templatemo_footer -->
 </div> <!-- END of templatemo_footer_wrapper -->
-
+</div> <!-- END Inner Body --->
 </body>
 </html>

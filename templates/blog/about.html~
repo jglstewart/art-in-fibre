@@ -3,8 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Joanna Close - Art in Fibre</title>
-<meta name="keywords" content="fresh zone, contact page, location maps, free templates, CSS" />
-<meta name="description" content="Fresh Zone, Contact Page, Location Maps, free CSS template by templatemo.com" />
+<meta name="keywords" content="fresh zone, about us, company, theme, free templates, web design, website, CSS, HTML" />
+<meta name="description" content="Fresh Zone, About Us, Company, free CSS template by templatemo.com" />
 <link href="static/css/templatemo_style.css" rel="stylesheet" type="text/css" />
 
 <link rel="stylesheet" type="text/css" href="static/css/ddsmoothmenu.css" />
@@ -65,7 +65,7 @@ ddsmoothmenu.init({
         <div id="templatemo_menu" class="ddsmoothmenu">
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/about.html">About</a>
+                <li><a href="/about.html" class="selected">About</a>
                     <ul>
                         <li><a href="site/about/bio.html">joanna's biography</a></li>
                         <li><a href="site/about/farm_project.html">farm project</a></li>
@@ -82,7 +82,7 @@ ddsmoothmenu.init({
 					</ul>
                 </li>
                 <li><a href="blog/1">Blog</a></li>
-                <li><a href="contact.html" class="selected" >Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
             <br style="clear: left" />
         </div> <!-- end of templatemo_menu -->
@@ -92,46 +92,46 @@ ddsmoothmenu.init({
 <div id="templatemo_main_wrapper">
     <div id="templatemo_main">
     	
-        <h2>Contact Information</h2>
-        <div class="half float_l">
-			<h4>Custom work, craft-shows, orders, questions, suggestions, kind words</h4>
-            <p>Please do not hesitate to write me! I've set up this beautiful form to make it easier for you to do so! I can't wait to hear from you!</p>
-            <div id="contact_form">
-				<form method="post" name="contact" action="#">
-					
-					<label for="author">Name:</label> <input type="text" id="author" name="author" class="required input_field" />
-					<div class="cleaner h10"></div>
-													
-					<label for="email">Email:</label> <input type="text" class="validate-email required input_field" name="email" id="email" />
+        <div class="col two-third">
+            <h2>Statement</h2>
+			<img src="/static/images/pie-rhubarb.gif" alt="Rhubarb Pie" class="image_fl" />
+            <p>As a child I spent weekends in the country and often went for family drives on back roads. At an early age I developed an appreciation and a longing for rural living.</p>
 
-					<div class="cleaner h10"></div>
-											
-					<label for="subject">Subject:</label> <input type="text" class="validate-subject required input_field" name="subject" id="subject"/>				               
-					<div class="cleaner h10"></div>
-							
-					<label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0" class="required"></textarea>
-					<div class="cleaner h10"></div>				
-												
-					<input type="submit" value="Send" id="submit" name="submit" class="submit_btn float_l" />
-					<input type="reset" value="Reset" id="reset" name="reset" class="submit_btn float_r" />
+<p>Land is one of the themes present in my work, resulting from growing up with a close connection to rural life. I have always held farmers in high regard.</p>
 
-				</form>
-            </div>
-		</div>
-        <div class="half float_r">
-			<h4>Where I call Home</h4>
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/?ie=UTF8&amp;ll=45.228481,-63.566895&amp;spn=8.78987,17.753906&amp;t=m&amp;z=6&amp;output=embed"></iframe><br /><small><a href="https://maps.google.ca/?ie=UTF8&amp;ll=45.228481,-63.566895&amp;spn=8.78987,17.753906&amp;t=m&amp;z=6&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-            <div class="cleaner h40"></div>
-            <h6><strong>Joanna Close - art in fibre</strong></h6>
+<p>I use various media to show my ideas, dyeing, weaving, screen printing, natural dyeing, felting, drawing and stitching, are a few. I consider my pursuits in baking, gardening and simple living as a contribution to my art practice. I see it as a way of life, everything I am involved with and interested in contributes to my work.</p>
 
-				Halifax, Nova Scotia, Canada <br /><br />
-                
-            <strong>Phone:</strong> 902.429.1724<br />
-			<strong>Email:</strong> <a href="mailto:joannalclose@gmail.com">joannalclose@gmail.com</a>
+<p>Bodies of work I have produced include a series of handwoven, hand dyed blankets that are woven translations of landscapes in Atlantic Canada. I have also explored gardens through my weaving, depicting fields of vegetables in scarves and blankets.</p>
+
+<p>Other projects have involved documenting the landscape and imagery in the Yukon, where I have lived. I used local plants to dye pieces of wool fabric, upon which I embellished with stitching that was drawn from the surroundings.</p>
+
+<p>As a part of my MA Degree studies I began exploring the colours and images present in the landscape of rural New Brunswick. This led to my ongoing body of work documenting my family's farm before it is sold and mined for crushedrock. This body of work involves various ways of making artwork, to tell the story of the farm to the viewer.</p>
+
+<p>I think the proximity of the urban environment to the rural environment is a defining factor in Canadian culture, being able to experience rural unspoilt places and horizons that are not cropped or contained. I will continue to explore the significance of these spaces in my work.</p>
+
+
+            <div class="cleaner h30"></div>
+
+
         </div>
-        
-        <div class="cleaner h40"></div>
-        
+		
+        <div class="col one_third no_margin_right">
+        	<h3>Testimonials</h3>
+        	<div class="testimonial">
+                <p>Aliquam elementum varius est, nec ornare dolor posuere et. Nunc dapibus eu diam erat aliquam orci quis euismod.</p>
+                <cite>Peter <a href="#"><span>- Senior Webmaster</span></a></cite>
+            </div>
+        	<div class="testimonial">
+                <p>Curabitur sed felis urna, quis eleifend magna. Nunc sed quam mollis sem iaculis viverra facilisis et purus. Aenean vitae tempus erat.</p>
+				<cite>David <a href="#"><span>- Web Developer</span></a></cite>
+            </div>
+            <div class="testimonial">
+                <p>Morbi nisi felis, porttitor vel scelerisque id, lobortis et augue. Donec quam neque, feugiat sed malesuada quis, tempus et mi.</p>
+				<cite>John <a href="#"><span>- Front-end Designer</span></a></cite>
+            </div>
+        </div> 
+                
+        <div class="cleaner"></div>
     </div> <!-- END of templatemo_main_wrapper -->
 </div> <!-- END of templatemo_main -->
 

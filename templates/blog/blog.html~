@@ -59,7 +59,7 @@ ddsmoothmenu.init({
 
 </head>
 <body>
-<div id="blog_wrapper">
+
 <div id="templatemo_header_wrapper">
 	<div id="templatemo_header">
     	<div id="site_title"><img src="/static/images/title.gif"/></div>
@@ -89,8 +89,6 @@ ddsmoothmenu.init({
         </div> <!-- end of templatemo_menu -->
     </div> <!-- END of templatemo_header -->
 </div> <!-- END of templatemo_header_wrapper -->
-
-
 
 <div id="templatemo_main_wrapper">
     <div id="templatemo_main">
@@ -144,6 +142,6 @@ ddsmoothmenu.init({
     	Copyright © 2012 <a href="#">Joanna Close</a> | Designed by Art in Fibre & Colour Creations Web Engineering
     </div> <!-- END of templatemo_footer -->
 </div> <!-- END of templatemo_footer_wrapper -->
-<.div< <!-- End of Blog_wrapper --->
+
 </body>
 </html>
