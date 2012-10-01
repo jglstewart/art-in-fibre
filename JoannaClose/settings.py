@@ -58,6 +58,10 @@ MEDIA_URL = '/media/'
 # Example: "/home/media/media.lawrence.com/static/"
 STATIC_ROOT = '/Users/jeremystewart/joanna/JoannaClose/static/'
 
+# Creates a link to static_root without conflicting with staticcollect
+STATIC_DOC_ROOT = '/Users/jeremystewart/joanna/JoannaClose/static/'
+
+
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
 STATIC_URL = '/static/'

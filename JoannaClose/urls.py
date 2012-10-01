@@ -57,4 +57,4 @@ if settings.DEBUG:
     # static files (images, css, javascript, etc.)
     urlpatterns += patterns('',
         (r'^static/(?P<path>.*)$', 'django.views.static.serve', {
-        'document_root': settings.STATIC_ROOT}))
+        'document_root': settings.STATIC_DOC_ROOT}))
