@@ -13,7 +13,12 @@ middleware here, or combine a Django application with an application of another
 framework.
 
 """
-import os
+import os, sys
+
+sys.path.append('/data/joanna/art-in-fibre')
+sys.path.append('/data/joanna/art-in-fibre/JoannaClose')
+sys.path.append('/data/joanna/lib/python2.7/site-packages')
+
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "JoannaClose.settings")
 
