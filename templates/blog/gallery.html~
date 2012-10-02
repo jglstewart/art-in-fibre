@@ -65,15 +65,15 @@ ddsmoothmenu.init({
     	<div id="site_title"><img src="{{ STATIC_URL }}images/title.gif"/></div>
         <div id="templatemo_menu" class="ddsmoothmenu">
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about.html">About</a>
+                <li><a href="/{{ SITE_ROOT }}">Home</a></li>
+                <li><a href="{{ SITE_ROOT }}about.html">About</a>
                     <ul>
                         <li><a href="site/about/bio.html">joanna's biography</a></li>
                         <li><a href="site/about/farm_project.html">farm project</a></li>
                         <li><a href="site/about/resume.html">resume</a></li>
 		    </ul>
                 </li>
-                <li><a href="/gallery/1" class="selected">Gallery</a>
+                <li><a href="{{ SITE_ROOT }}gallery/1" class="selected">Gallery</a>
                     <ul>
 			<li><a href="portfolio/illustrations">illustrations</a></li>
 			<li><a href="portfolio/blankets">blankets</a></li>
@@ -82,8 +82,8 @@ ddsmoothmenu.init({
 			<li><a href="portfolio/other">odds & ends</a></li>
 		   </ul>
                 </li>
-                <li><a href="/blog/1">Blog</a></li>
-                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="{{ SITE_ROOT }}blog/1">Blog</a></li>
+                <li><a href="{{ SITE_ROOT }}contact.html">Contact</a></li>
             </ul>
             <br style="clear: left" />
         </div> <!-- end of templatemo_menu -->
@@ -95,7 +95,7 @@ ddsmoothmenu.init({
 
 {% for product in products %}
         <div class={% cycle '"gallery_box"' '"gallery_box"' '"gallery_box"' '"gallery_box no_margin_right"' %}>
-       		<a href="/gallery/{{ product.slug }}" rel="lightbox[portfolio]"><img src="/media/{{ product.main_image }}" height="112px" width="200px" alt="{{ product.title }}" class="imgage-with-frame"/></a>
+       		<a href="/gallery/{{ product.slug }}" rel="lightbox[portfolio]"><img src="{{ MEDIA_URL }}{{ product.main_image }}" height="112px" width="200px" alt="{{ product.title }}" class="imgage-with-frame"/></a>
             <h5>{{ product.title}}</h5>
             <p>${{ product.cost }}</p>
         </div>
