@@ -123,11 +123,11 @@ ddsmoothmenu.init({
 
  <div class="pagging">
             <ul>
-                <li><a href="/blog/{{ current_page|add:"-1"}}" target="_parent">Previous</a></li>
+                <li><a href="{{ SITE_ROOT }}blog/{{ current_page|add:"-1"}}" target="_parent">Previous</a></li>
                 {% for i in pages|get_range %}
-                <li><a href="/blog/{{ i|add:"1" }}" target="_parent">{{ i|add:"1" }}</a></li>
+                <li><a href="{{ SITE_ROOT }}blog/{{ i|add:"1" }}" target="_parent">{{ i|add:"1" }}</a></li>
                 {% endfor %}
-                <li><a href="/blog/{{ current_page|add:"1"}}" target="_parent">Next</a></li>
+                <li><a href="{{ SITE_ROOT }}blog/{{ current_page|add:"1"}}" target="_parent">Next</a></li>
             </ul>
  </div>   
 
